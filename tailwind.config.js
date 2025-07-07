@@ -7,45 +7,64 @@ export default {
   theme: {
     extend: {
       colors: {
-        noir: {
-          50: '#F5F7FA',
-          100: '#E9EEF5',
-          200: '#D3DCE6',
-          300: '#B8C5D1',
-          400: '#9BA8B4',
-          500: '#6B7280',
-          600: '#4B5563',
-          700: '#374151',
-          800: '#1F2937',
-          900: '#111827',
-          950: '#0B0C0F'
+        athletic: {
+          50: '#F8FAFC',
+          100: '#F1F5F9',
+          200: '#E2E8F0',
+          300: '#CBD5E1',
+          400: '#94A3B8',
+          500: '#64748B',
+          600: '#475569',
+          700: '#334155',
+          800: '#1E293B',
+          900: '#0F172A',
+          950: '#020617'
         },
-        neon: {
-          cyan: '#00FFFF',
-          blue: '#0FF',
-          gold: '#FFD700',
-          green: '#00FF00',
-          purple: '#8B5CF6',
-          pink: '#FF00FF'
+        energy: {
+          50: '#FFF7ED',
+          100: '#FFEDD5',
+          200: '#FED7AA',
+          300: '#FDBA74',
+          400: '#FB923C',
+          500: '#F97316',
+          600: '#EA580C',
+          700: '#C2410C',
+          800: '#9A3412',
+          900: '#7C2D12',
+          950: '#431407'
         },
-        electric: {
-          50: '#F0FDFF',
-          100: '#CCFBFF',
-          200: '#99F6FF',
-          300: '#5CEDFF',
-          400: '#06D6F9',
-          500: '#00B8D4',
-          600: '#0891B2',
-          700: '#0E7490',
-          800: '#155E75',
-          900: '#164E63'
+        pulse: {
+          50: '#F0F9FF',
+          100: '#E0F2FE',
+          200: '#BAE6FD',
+          300: '#7DD3FC',
+          400: '#38BDF8',
+          500: '#0EA5E9',
+          600: '#0284C7',
+          700: '#0369A1',
+          800: '#075985',
+          900: '#0C4A6E',
+          950: '#082F49'
+        },
+        volt: {
+          50: '#F0FDF4',
+          100: '#DCFCE7',
+          200: '#BBF7D0',
+          300: '#86EFAC',
+          400: '#4ADE80',
+          500: '#22C55E',
+          600: '#16A34A',
+          700: '#15803D',
+          800: '#166534',
+          900: '#14532D',
+          950: '#052E16'
         }
       },
       fontFamily: {
-        'orbitron': ['Orbitron', 'sans-serif'],
-        'exo': ['Exo 2', 'sans-serif'],
-        'teko': ['Teko', 'sans-serif'],
-        'manrope': ['Manrope', 'sans-serif'],
+        'rubik': ['Rubik', 'sans-serif'],
+        'barlow': ['Barlow', 'sans-serif'],
+        'rajdhani': ['Rajdhani', 'sans-serif'],
+        'work-sans': ['Work Sans', 'sans-serif'],
         'inter': ['Inter', 'sans-serif']
       },
       animation: {
@@ -115,9 +134,9 @@ export default {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'noir-gradient': 'linear-gradient(135deg, #0B0C0F 0%, #1E2127 50%, #121417 100%)',
-        'neon-gradient': 'linear-gradient(135deg, #00FFFF 0%, #0FF  50%, #FFD700 100%)',
-        'holographic': 'linear-gradient(45deg, #00FFFF 0%, #8B5CF6 25%, #FF00FF 50%, #00FF00 75%, #FFD700 100%)'
+        'athletic-gradient': 'linear-gradient(135deg, #F8FAFC 0%, #E2E8F0 50%, #CBD5E1 100%)',
+        'energy-gradient': 'linear-gradient(135deg, #F97316 0%, #EA580C 50%, #C2410C 100%)',
+        'performance-gradient': 'linear-gradient(45deg, #38BDF8 0%, #0EA5E9 25%, #F97316 50%, #22C55E 75%, #0284C7 100%)'
       }
     }
   },
